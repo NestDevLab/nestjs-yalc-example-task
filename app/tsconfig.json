@@ -114,6 +114,14 @@
         "../node_modules/@nestjs-yalc/logger/*",
         "../node_modules/@nestjs-yalc/logger/src/*"
       ],
+      "@nestjs-yalc/observability": [
+        "../node_modules/@nestjs-yalc/observability/src/index.js",
+        "../node_modules/@nestjs-yalc/observability/src/index.d.ts"
+      ],
+      "@nestjs-yalc/observability/*": [
+        "../node_modules/@nestjs-yalc/observability/*",
+        "../node_modules/@nestjs-yalc/observability/src/*"
+      ],
       "@nestjs-yalc/omnikernel-module": [
         "../omnikernel-module/src/index.ts"
       ],
@@ -139,6 +147,9 @@
       ],
       "@nestjs-yalc/task-system-module": [
         "../module/src/index.ts"
+      ],
+      "@nestjs-yalc/task-system-module/src/*": [
+        "../module/src/*"
       ],
       "@nestjs-yalc/task-system-module/*": [
         "../module/*",
